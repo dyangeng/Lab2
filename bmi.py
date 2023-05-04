@@ -1,4 +1,6 @@
 import statistics
+import lab3_bmi as bmi
+
 def display_main_menu():
     print("Enter some numbers seperated by commas (e.g 5,67,32)")
 
@@ -33,10 +35,6 @@ def main():
     calc_average(temp)
 if __name__ == "__main__":
     main()
-def calculate_bmi(height, weight):
-    print("Height =" + str(height))
-    print("Weight =" + str(weight))
-    bmi = weight / (height **2)
-    print(bmi)
+
 
 
